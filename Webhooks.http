@@ -1,0 +1,15 @@
+@Webhooks_HostAddress = http://localhost:5197
+
+
+GET {{Webhooks_HostAddress}}/
+
+###
+
+POST {{Webhooks_HostAddress}}/webhook
+Content-Type: application/json
+
+{
+  "Body": "string"
+}
+
+###
